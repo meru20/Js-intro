@@ -40,7 +40,7 @@
   ******* */
 
   const verifyAge = () => {
-    let age = prompt ('Enter your age :');
+    let age = prompt ('Please Enter your age :');
     //debugger;
     if (age >= 13){
       alert('Welcome,You are good to Get in!');
@@ -57,15 +57,15 @@
    * ******** */
 
   const weather = () => {
-  let temp = prompt ('Enter the weather in celsius: ');
+  let temp = prompt ('Please Enter the weather in celsius: ');
   convertTemprature(temp);
   }
 
   const convertTemprature = (degree) => {
   let fahrenheit = degree * 1.8 + 32;
-  console.log('The weather in Fahrenheit is :', fahrenheit);
+  alert('The weather in Fahrenheit is :'+ fahrenheit);
   }
-  weather();
+  //weather();
 
   /****
    * Exercise 5: Guess the number between 1 and 10
