@@ -83,3 +83,16 @@
      }
 
    }
+   /*****
+   * Exercise 5: fahrenheit to celcius
+   * ******** */
+
+  const convertToCelsius = () => {
+    let temp = prompt ('Please Enter the weather in celsius: ');
+    convertTemp(temp);
+    }
+
+    const convertTemp  = (degree) => {
+    let celsius = (5/9)*(degree-32);
+    alert('The weather in Celsius is :'+ celsius);
+    }
