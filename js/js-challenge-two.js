@@ -84,7 +84,7 @@
 
    }
    /*****
-   * Exercise 5: fahrenheit to celcius
+   * Exercise 6: fahrenheit to celcius
    * ******** */
 
   const convertToCelsius = () => {
