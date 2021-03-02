@@ -13,9 +13,9 @@
  const ask = () => {
      let answer = confirm('Hey there! would you like to calculate two numbers?')
      if (answer == true) {
-let arthimetic = prompt(' would you like to add , subtract, multiply or divide the two value?')
+let arithmetic = prompt(' would you like to add , subtract, multiply or divide the two value?')
 //debugger;
-switch (arthimetic) {
+switch (arithmetic) {
     case'add':
     let addOne = prompt('what is the first value you want to add?');
     let addTwo = prompt('what is the second value you want to add?')
@@ -42,7 +42,7 @@ switch (arthimetic) {
     break;
 
     default:
-    alert('Please enter the arthimetic operation you want to use.');
+    alert('Please enter the arithmetic operation you want to use.');
 
 }
      }
